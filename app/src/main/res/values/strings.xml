@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Activity_3</string>
+    <string name="labelapp">Login User</string>
+    <string name="un">Username</string>
+    <string name="ps">Password</string>
+    <string name="btn">Sign-In</string>
+    <string name="hsl">Tampilan Hasil</string>
+    <string name="FormRegis">Form Registrasi</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="tlp">No. Telepon</string>
+    <string name="hintnama">Masukkan Nama</string>
+    <string name="hintAlamat">Masukkan Alamat</string>
+    <string name="hinttlp">Masukkan No. Telepon</string>
+    <string name="Regist">Daftar</string>
+    <string name="menu2">Tampilan Menu 2</string>
+    <string name="menu3">Tampilan Menu 3</string>
+</resources>

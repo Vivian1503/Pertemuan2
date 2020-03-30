@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#b30000</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="jdl">#b30000</color>
+    <color name="txt">#b30000</color>
+    <color name="label">#b30000</color>
+    <color name="background">#0099ff</color>
+    <color name="kuning">#ffff00</color>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/kuning"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FormRegis"
+                android:textColor="@color/jdl"
+                android:textAlignment="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:textSize="35sp"
+                android:textStyle="bold"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/textnama"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama"
+                    android:textColor="@color/label"
+                    android:textSize="20sp"
+                    />
+
+                <EditText
+                    android:id="@+id/editnama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hintnama"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/txt"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/textalamat"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alamat"
+                    android:textColor="@color/label"
+                    android:textSize="20sp"
+                    />
+
+                <EditText
+                    android:id="@+id/editalamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hintAlamat"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/txt"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/texttlp"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tlp"
+                    android:textColor="@color/label"
+                    android:textSize="20sp"
+                    />
+
+                <EditText
+                    android:id="@+id/editUN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/hinttlp"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/txt"
+                    />
+            </TableRow>
+
+            <Button
+                android:id="@+id/btnregis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="@color/txt"
+                android:text="@string/btn"/>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
